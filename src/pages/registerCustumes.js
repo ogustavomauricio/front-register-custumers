@@ -6,6 +6,7 @@ import ButtonGroup from '@material-ui/core/ButtonGroup';
 
 import "../styles/register.css";
 
+
 export default function Form() {
   const [name, setName] = useState("");
   const [age, setAge] = useState("");
@@ -29,7 +30,7 @@ export default function Form() {
     setCity('');
     setState('');
   };
-  
+
   return (
     <div className="container">
       <div className="container-interno">
