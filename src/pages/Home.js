@@ -1,26 +1,32 @@
-import React from 'react';
+import React from "react";
 
-import '../styles/home.css'
-import Button from '@material-ui/core/Button';
-import ButtonGroup from '@material-ui/core/ButtonGroup';
+import "../styles/home.css";
+import Button from "@material-ui/core/Button";
+
 
 export default function Home() {
   return (
- <div className='container'>
-   <div className='box'> 
-    <ButtonGroup  aria-label="outlined primary button group">
-    <Button color="primary" href='/registercustumers'>Cadastrar Cliente</Button>
-    <Button color="primary" href='/getallcustumers'>Buscar Clientes</Button>
-  </ButtonGroup>
-  </div>
- </div>
-    
+    <div className="container">
+      <div className="box">     
+        <h2>Seja Bem Vindo</h2>
+        <div className="container-button">  
+        <div className="button1">
+          <Button
+            variant="outlined"
+            color="secondary"
+            href="/registercustumers"
+          >
+            Cadastrar Cliente
+          </Button>
+        </div>
 
-    
-
-          
-        
-
-     
+        <div>
+          <Button variant="outlined" color="secondary" href="/getallcustumers">
+            Buscar Clientes
+          </Button>
+        </div>
+      </div>
+      </div>
+    </div>
   );
 }

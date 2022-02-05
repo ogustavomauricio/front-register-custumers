@@ -15,4 +15,15 @@
     align-items: center;
     box-shadow: 6px 6px 6px #292929;
     background:#CFDEF3;
+    flex-direction: column;
+}
+
+.container-button{
+    display: flex;
+    margin-top: 20px;
+}
+
+.button1{
+    display: flex;
+    margin-right: 15px;
 }
